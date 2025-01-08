@@ -34,11 +34,11 @@ describe('Logout', () =>{
     cy.get('.flash.success')
       .should('be.visible');
   })
-
+  
   it('Logout', () => {
     cy.get('h2').contains('Secure').should('be.visible')
     cy.get('a[href="/logout"]').click()
     cy.get('.flash.success')
-      .should('contain', 'You logged out of the secure area!')
+    .should('contain', 'You logged out of the secure area!')
   })
 })
