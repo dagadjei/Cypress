@@ -1,2 +1,3 @@
 # Cypress
-Basic Cypress Tests, Advanced Cypress Tests, User Management System Cypress Test Project
+Basic Cypress Tests
+Understanding Cypress commands like beforeEach and differences in basic cypress commands
